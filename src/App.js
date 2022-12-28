@@ -1,7 +1,13 @@
 /* eslint-disable react/react-in-jsx-scope */
 
+import Header from "./Components/Header";
+
 function App() {
-  return <div>Equilibr.ar</div>;
+  return (
+    <main>
+      <Header />
+    </main>
+  );
 }
 
 export default App;
