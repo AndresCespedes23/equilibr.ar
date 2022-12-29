@@ -4,8 +4,16 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: #FFF;
+
+}
 .presentation {
-    padding: 6rem;
+    padding: 2rem;
 }
 .text {
     margin: 0rem 15rem;
