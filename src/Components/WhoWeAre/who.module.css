@@ -1,0 +1,16 @@
+.background {
+    background-image: url('../../../public/images/background/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.presentation {
+    padding: 6rem;
+}
+.text {
+    margin: 0rem 15rem;
+    padding: 5rem;
+    background-color: #D47F1B;
+    border-radius: 25%;
+    box-shadow: 4px 3px #000;
+}
