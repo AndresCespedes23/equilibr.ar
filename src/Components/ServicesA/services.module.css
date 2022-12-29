@@ -1,0 +1,35 @@
+.servicesBackground {
+    background-image: url('../../../public/images/background/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title {
+    display:flex;
+    justify-content: center;
+    padding: 2rem;
+    color: #FFF;
+}
+.servicesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.servicesImages {
+    margin-right: 4vw;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #D47F1B;
+    box-shadow: 4px 3px #000;
+}
+.services {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 15%;
+    background-color: #367211;
+    box-shadow: 4px 3px #000;
+}
+.servicesTitle {
+    color: #FFF;
+}

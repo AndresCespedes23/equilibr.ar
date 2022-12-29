@@ -2,6 +2,7 @@
 
 import Header from "./Components/Header";
 import WhoWeAre from "./Components/WhoWeAre";
+import Services from "./Components/ServicesA";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <main>
       <Header />
       <WhoWeAre />
+      <Services />
       <Footer />
     </main>
   );
