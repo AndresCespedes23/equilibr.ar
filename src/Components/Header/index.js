@@ -1,16 +1,17 @@
 /* eslint-disable no-undef */
 import React from "react";
+import styles from "./header.module.css";
 
 function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <img src={`${process.env.PUBLIC_URL}/images/eq-logo.png`} alt="eq-logo" />
       <nav>
-        <ul>
-          <li>Quienes somos</li>
-          <li>Servicios</li>
-          <li>Clientes</li>
-          <li>Contacto</li>
+        <ul className={styles.navLinks}>
+          <li className={styles.links}>Quienes somos</li>
+          <li className={styles.links}>Servicios</li>
+          <li className={styles.links}>Clientes</li>
+          <li className={styles.links}>Contacto</li>
         </ul>
       </nav>
     </header>

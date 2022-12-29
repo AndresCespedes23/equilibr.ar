@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    color: #FFFFFF;
+}
+.navLinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+.links {
+    padding-right: 3vw;
+}
