@@ -3,6 +3,7 @@
 import Header from "./Components/Header";
 import WhoWeAre from "./Components/WhoWeAre";
 import Services from "./Components/ServicesA";
+import Clients from "./Components/Clients";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <WhoWeAre />
       <Services />
+      <Clients />
       <Contact />
       <Footer />
     </main>

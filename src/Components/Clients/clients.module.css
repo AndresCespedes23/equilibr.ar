@@ -1,0 +1,29 @@
+.clientsBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../../../public/images/background/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.title {
+    color: #FFF;
+}
+.imageSlider {
+    margin: 2rem 0rem 5rem 0rem;
+    width: 70%;
+    --slider-height-percentage: 40%;
+    --slider-transition-duration: 575ms;
+    --organic-arrow-thickness: 4px;
+    --organic-arrow-border-radius: 0px;
+    --organic-arrow-height: 40px;
+    --organic-arrow-color: #FFF;
+    --control-button-width: 10%;
+    --control-button-height: 25%;
+    --control-bullet-color: #d4721b;
+    --control-bullet-active-color: #d47e1b;
+    --loader-bar-color: #d47e1b;
+    --loader-bar-height: 1px;
+    }
