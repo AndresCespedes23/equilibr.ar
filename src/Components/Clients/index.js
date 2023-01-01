@@ -8,7 +8,7 @@ const Clients = () => {
   return (
     <section className={styles.clientsBackground}>
       <h3 className={styles.title}>Clientes</h3>
-      <AwesomeSlider className={styles.imageSlider}>
+      <AwesomeSlider className={styles.awsCarousel}>
         <div data-src={`${process.env.PUBLIC_URL}/images/background/1.jpg`} />
         <div data-src={`${process.env.PUBLIC_URL}/images/background/2.jpg`} />
         <div data-src={`${process.env.PUBLIC_URL}/images/background/4.jpg`} />

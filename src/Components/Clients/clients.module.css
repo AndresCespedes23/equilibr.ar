@@ -11,7 +11,7 @@
 .title {
     color: #FFF;
 }
-.imageSlider {
+.awsCarousel {
     margin: 2rem 0rem 5rem 0rem;
     width: 70%;
     --slider-height-percentage: 40%;
