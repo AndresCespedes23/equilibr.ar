@@ -12,18 +12,8 @@
     color: #FFF;
 }
 .awsCarousel {
-    margin: 2rem 0rem 5rem 0rem;
+    margin: 2rem;
+    border: 15px solid #D47F1B;
+    border-radius: 3%;
     width: 70%;
-    --slider-height-percentage: 40%;
-    --slider-transition-duration: 575ms;
-    --organic-arrow-thickness: 4px;
-    --organic-arrow-border-radius: 0px;
-    --organic-arrow-height: 40px;
-    --organic-arrow-color: #FFF;
-    --control-button-width: 10%;
-    --control-button-height: 25%;
-    --control-bullet-color: #d4721b;
-    --control-bullet-active-color: #d47e1b;
-    --loader-bar-color: #d47e1b;
-    --loader-bar-height: 1px;
     }
