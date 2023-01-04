@@ -8,12 +8,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
     color: #FFF;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.74);
 }
 .form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.name, .email, .textArea {
+    margin: 5px;
+    padding: 1rem;
+    border-radius: 5%;
+    border: 4px solid #000;
+}
+.name, .email {
+    padding: 1rem 14rem 1rem 1rem;
+}
+.textArea {
+    resize: none;
+}
+.submitBtn {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background: #D47F1B;
+    box-shadow: 1px 2px #000;
 }

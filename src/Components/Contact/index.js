@@ -6,13 +6,17 @@ const Contact = () => {
     <section className={styles.contactBackground}>
       <h3 className={styles.title}>Cómo podemos ayudarte?</h3>
       <form className={styles.form}>
-        <input placeholder="Nombre completo" />
-        <input placeholder="Email" />
+        <input className={styles.name} placeholder="Nombre completo" />
+        <input className={styles.email} placeholder="Email" />
         <textarea
-          rows={10}
-          cols={40}
+          className={styles.textArea}
+          rows={5}
+          cols={50}
           placeholder="Deje su mensaje aquí"
         ></textarea>
+        <button className={styles.submitBtn} type="submit">
+          ENVIAR
+        </button>
       </form>
     </section>
   );
