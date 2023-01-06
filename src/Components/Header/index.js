@@ -5,7 +5,11 @@ import styles from "./header.module.css";
 function Header() {
   return (
     <header className={styles.header}>
-      <img src={`${process.env.PUBLIC_URL}/images/eq-logo.png`} alt="eq-logo" />
+      <img
+        className={styles.logo}
+        src={`${process.env.PUBLIC_URL}/images/eq-logo.png`}
+        alt="eq-logo"
+      />
       <nav>
         <ul className={styles.navLinks}>
           <li className={styles.links}>Quienes somos</li>

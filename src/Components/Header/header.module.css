@@ -1,9 +1,15 @@
 .header {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #000000;
     color: #FFFFFF;
+    width: 100%;
+}
+.logo {
+    height: 3rem;
 }
 .navLinks {
     display: flex;
