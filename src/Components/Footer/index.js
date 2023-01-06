@@ -17,7 +17,9 @@ const Footer = () => {
           alt="linkedin"
         />
       </div>
-      <p>Copyright © 2022 Equilibr.ar. All rights reserved.</p>
+      <p className={styles.copyright}>
+        Copyright © 2022 Equilibr.ar. All rights reserved.
+      </p>
     </footer>
   );
 };
