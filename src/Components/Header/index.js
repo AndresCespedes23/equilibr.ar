@@ -12,10 +12,26 @@ function Header() {
       />
       <nav>
         <ul className={styles.navLinks}>
-          <li className={styles.links}>Quienes somos</li>
-          <li className={styles.links}>Servicios</li>
-          <li className={styles.links}>Clientes</li>
-          <li className={styles.links}>Contacto</li>
+          <li>
+            <a className={styles.links} href="#quienes_somos">
+              Quienes somos
+            </a>
+          </li>
+          <li>
+            <a className={styles.links} href="#servicios">
+              Servicios
+            </a>
+          </li>
+          <li>
+            <a className={styles.links} href="#clientes">
+              Clientes
+            </a>
+          </li>
+          <li>
+            <a className={styles.links} href="#contacto">
+              Contacto
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

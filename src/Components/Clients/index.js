@@ -6,7 +6,7 @@ import "react-awesome-slider/dist/styles.css";
 
 const Clients = () => {
   return (
-    <section className={styles.clientsBackground}>
+    <section id="clientes" className={styles.clientsBackground}>
       <h3 className={styles.title}>Clientes</h3>
       <div className={styles.awsCarousel}>
         <AwesomeSlider>

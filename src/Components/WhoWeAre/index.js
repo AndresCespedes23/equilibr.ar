@@ -3,7 +3,7 @@ import styles from "./who.module.css";
 
 const WhoWeAre = () => {
   return (
-    <section className={styles.background}>
+    <section id="quienes_somos" className={styles.background}>
       <h2 className={styles.title}>Quienes Somos</h2>
       <div className={styles.presentation}>
         <p className={styles.text}>

@@ -3,7 +3,7 @@ import styles from "./contact.module.css";
 
 const Contact = () => {
   return (
-    <section className={styles.contactBackground}>
+    <section id="contacto" className={styles.contactBackground}>
       <h3 className={styles.title}>Cómo podemos ayudarte?</h3>
       <form className={styles.form}>
         <input className={styles.name} placeholder="Nombre completo" />
