@@ -1,4 +1,4 @@
-.clientsBackground {
+.blogBackground {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,11 +11,8 @@
     background-blend-mode: multiply;
 }
 .title {
+    padding: 2rem;
     color: #FFF;
+    font-size: 2rem;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.74);
 }
-.awsCarousel {
-    margin: 2rem;
-    border: 15px solid #D47F1B;
-    border-radius: 3%;
-    width: 70%;
-    }

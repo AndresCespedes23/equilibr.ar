@@ -23,8 +23,8 @@ function Header() {
             </a>
           </li>
           <li>
-            <a className={styles.links} href="#clientes">
-              Clientes
+            <a className={styles.links} href="#novedades">
+              Novedades
             </a>
           </li>
           <li>
