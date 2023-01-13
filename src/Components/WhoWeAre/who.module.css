@@ -3,6 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: grey;
+    background-blend-mode: multiply;
 }
 .title {
     display: flex;
