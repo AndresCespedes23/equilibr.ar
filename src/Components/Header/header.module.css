@@ -8,6 +8,7 @@
     color: #367211;
     width: 100%;
     border-bottom: 4px solid #367211;
+    z-index: 1;
 }
 .logo {
     height: 3rem;

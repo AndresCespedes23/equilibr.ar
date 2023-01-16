@@ -1,12 +1,17 @@
 /* eslint-disable no-undef */
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import styles from "./services.module.css";
 
 const Services = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <section id="servicios" className={styles.servicesBackground}>
       <h2 className={styles.title}>Servicios que brindamos</h2>
-      <div className={styles.servicesContainer}>
+      <div className={styles.servicesContainer} data-aos="zoom-in">
         <img
           src={`${process.env.PUBLIC_URL}/images/services/satellite.png`}
           alt="satelite"
@@ -24,7 +29,7 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className={styles.servicesContainer}>
+      <div className={styles.servicesContainer} data-aos="zoom-in">
         <img
           src={`${process.env.PUBLIC_URL}/images/services/solution.png`}
           alt="solution"
@@ -42,7 +47,7 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className={styles.servicesContainer}>
+      <div className={styles.servicesContainer} data-aos="zoom-in">
         <img
           src={`${process.env.PUBLIC_URL}/images/services/searching.png`}
           alt="searching"
