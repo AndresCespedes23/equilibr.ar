@@ -8,6 +8,7 @@ const Contact = () => {
       <form className={styles.form}>
         <input className={styles.name} placeholder="Nombre completo" />
         <input className={styles.email} placeholder="Email" />
+        <input className={styles.location} placeholder="Ubicación" />
         <textarea
           className={styles.textArea}
           rows={5}

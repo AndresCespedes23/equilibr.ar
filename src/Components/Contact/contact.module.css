@@ -19,13 +19,13 @@
     align-items: center;
     flex-direction: column;
 }
-.name, .email, .textArea {
+.name, .email, .location, .textArea {
     margin: 5px;
     padding: 1rem;
     border-radius: 5%;
     border: 4px solid #000;
 }
-.name, .email {
+.name, .email, .location {
     padding: 1rem 14rem 1rem 1rem;
 }
 .textArea {
