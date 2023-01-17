@@ -6,6 +6,7 @@ import Services from "./Components/ServicesA";
 import Blog from "./Components/Blog";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Loading from "./Components/Shared/Loading";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Blog />
       <Contact />
       <Footer />
+      <Loading />
     </main>
   );
 }
