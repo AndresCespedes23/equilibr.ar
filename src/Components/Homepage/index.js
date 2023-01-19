@@ -2,7 +2,7 @@ import React from "react";
 import Contact from "./Contact";
 import Footer from "../Shared/Footer";
 import Loading from "../Shared/Loading";
-import Blog from "./Blog";
+import News from "./News";
 import Header from "./Header";
 import Services from "./ServicesA";
 import WhoWeAre from "./WhoWeAre";
@@ -13,7 +13,7 @@ const Home = () => {
       <Header />
       <WhoWeAre />
       <Services />
-      <Blog />
+      <News />
       <Contact />
       <Footer />
       <Loading />
