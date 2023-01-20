@@ -8,11 +8,16 @@ const News = () => {
   return (
     <section id="novedades" className={styles.blogBackground}>
       <h3 className={styles.title}>Novedades</h3>
-      <button className={styles.newsBtn}>
-        <Link className={styles.linkBtn} to="/blog">
-          Ver Novedades
-        </Link>
-      </button>
+      <div className={styles.newsBackground}>
+        <p className={styles.newsDescription}>
+          Enterate de nuestros nuevos proyectos y ultimos trabajos
+        </p>
+        <button className={styles.newsBtn}>
+          <Link className={styles.linkBtn} to="/blog">
+            Ver Novedades
+          </Link>
+        </button>
+      </div>
     </section>
   );
 };

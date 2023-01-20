@@ -3,18 +3,35 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 2rem;
     background-image: url('../../../../public/images/background/3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: grey;
     background-blend-mode: multiply;
+    
 }
 .title {
-    padding: 2rem;
-    color: #FFF;
+    padding: 1rem;
+    color: #ffffff;
     font-size: 2rem;
     text-shadow: 2px 3px rgba(0, 0, 0, 0.74);
+}
+.newsBackground {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 15%;
+    background-color: #367211;
+    box-shadow: 4px 3px #000;
+}
+.newsDescription {
+    padding: 2rem;
+    color: #ffffff;
+    font-size: 1.5rem;
 }
 .newsBtn {
     margin: 1rem;
