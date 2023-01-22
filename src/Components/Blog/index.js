@@ -33,6 +33,7 @@ const Blog = () => {
             <input type="date" />
           </div>
         </div>
+        <button type="submit">Publicar</button>
       </form>
       <div className={styles.feed}>
         <div className={styles.publication}>
