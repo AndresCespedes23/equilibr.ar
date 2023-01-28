@@ -19,7 +19,7 @@ const Services = () => {
         />
         <div className={styles.services}>
           <h3 className={styles.servicesTitle}>Título</h3>
-          <p>
+          <p className={styles.servicesText}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem
             quam, semper ac arcu non, sodales pellentesque libero. Sed mattis,
             velit ac sagittis cursus, tortor ante porttitor purus, ac rhoncus
@@ -37,7 +37,7 @@ const Services = () => {
         />
         <div className={styles.services}>
           <h3 className={styles.servicesTitle}>Título</h3>
-          <p>
+          <p className={styles.servicesText}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem
             quam, semper ac arcu non, sodales pellentesque libero. Sed mattis,
             velit ac sagittis cursus, tortor ante porttitor purus, ac rhoncus
@@ -55,7 +55,7 @@ const Services = () => {
         />
         <div className={styles.services}>
           <h3 className={styles.servicesTitle}>Título</h3>
-          <p>
+          <p className={styles.servicesText}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem
             quam, semper ac arcu non, sodales pellentesque libero. Sed mattis,
             velit ac sagittis cursus, tortor ante porttitor purus, ac rhoncus
