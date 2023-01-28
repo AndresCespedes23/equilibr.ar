@@ -134,4 +134,6 @@ html,
 body,
 #root {
   height: 100%;
+  --green: #367211;
+  --gold: #A57D02;
 }

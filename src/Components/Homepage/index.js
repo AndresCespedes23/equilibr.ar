@@ -1,7 +1,6 @@
 import React from "react";
 import Contact from "./Contact";
 import Footer from "../Shared/Footer";
-import Loading from "../Shared/Loading";
 import News from "./News";
 import Header from "./Header";
 import Services from "./ServicesA";
@@ -16,7 +15,6 @@ const Home = () => {
       <News />
       <Contact />
       <Footer />
-      <Loading />
     </main>
   );
 };

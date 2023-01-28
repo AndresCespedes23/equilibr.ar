@@ -24,7 +24,7 @@
     margin-right: 4vw;
     padding: 1rem;
     border-radius: 50%;
-    background-color: #D47F1B;
+    background-color: var(--gold);
     box-shadow: 4px 3px #000;
     height: 10rem;
 }
@@ -32,8 +32,12 @@
     margin: 1rem;
     padding: 2rem;
     border-radius: 15%;
-    background-color: #367211;
+    background-image: url('../../../../public/images/background/1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     box-shadow: 4px 3px #000;
+    color: #FFF;
 }
 .servicesTitle {
     padding: 1rem 0rem;

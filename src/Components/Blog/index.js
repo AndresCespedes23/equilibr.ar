@@ -21,20 +21,6 @@ const Blog = () => {
         </nav>
       </header>
       <h2 className={styles.title}>Novedades</h2>
-      <form className={styles.post}>
-        <input className={styles.text} placeholder="Crear publicación ..." />
-        <div className={styles.data}>
-          <div className={styles.img}>
-            <label>Foto</label>
-            <input type="file" />
-          </div>
-          <div className={styles.date}>
-            <label>Fecha</label>
-            <input type="date" />
-          </div>
-        </div>
-        <button type="submit">Publicar</button>
-      </form>
       <div className={styles.feed}>
         <div className={styles.publication}>
           <h2>Titulo</h2>

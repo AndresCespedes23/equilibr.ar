@@ -15,7 +15,7 @@
     background: #FFF;
     color: #367211;
     width: 100%;
-    border-bottom: 4px solid #367211;
+    border-bottom: 4px solid #CD9900;
     z-index: 1;
 }
 .logo {
@@ -29,25 +29,6 @@
     font-size: 2rem;
     text-shadow: 2px 3px rgba(0, 0, 0, 0.74);
 }
-.post {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem;
-}
-.text {
-    padding-right:20vw; 
-}
-.data {
-    display:flex;
-    background-color: #367211;
-}
-.img, .date {
-    display: flex;
-    flex-direction: column;
-    margin:1rem;
-}
 .feed {
     display: flex;
     justify-content: center;
@@ -56,5 +37,7 @@
 }
 .publication {
     margin: 3rem;
+    padding: 1rem;
     background-color: #FFF;
+    border-radius: 2%;
 }

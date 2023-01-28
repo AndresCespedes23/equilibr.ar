@@ -25,7 +25,10 @@
     margin: 1rem;
     padding: 2rem;
     border-radius: 15%;
-    background-color: #367211;
+    background-image: url('../../../../public/images/background/1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     box-shadow: 4px 3px #000;
 }
 .newsDescription {
@@ -36,7 +39,7 @@
 .newsBtn {
     margin: 1rem;
     padding: 0.5rem 1rem;
-    background: #D47F1B;
+    background: var(--gold);
     box-shadow: 1px 2px #000;
 }
 .linkBtn {

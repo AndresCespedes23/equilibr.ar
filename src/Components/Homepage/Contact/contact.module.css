@@ -3,6 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: rgba(128, 128, 128, 0.589);
+    background-blend-mode: multiply;
 }
 .title {
     display: flex;
@@ -34,6 +36,6 @@
 .submitBtn {
     margin: 1rem;
     padding: 0.5rem 1rem;
-    background: #D47F1B;
+    background: var(--gold);
     box-shadow: 1px 2px #000;
 }
