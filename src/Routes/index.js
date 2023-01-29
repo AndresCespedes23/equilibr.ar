@@ -2,15 +2,17 @@
 /* eslint-disable react/react-in-jsx-scope */
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Admin from "../Components/Admin";
-import Blog from "../Components/Blog";
+import Feed from "../Components/Feed";
 import Home from "../Components/Homepage";
+import Login from "../Components/Login";
 
 function Pages() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/feed" element={<Feed />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>

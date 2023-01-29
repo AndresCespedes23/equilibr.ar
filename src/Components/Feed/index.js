@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Footer from "../Shared/Footer";
 import styles from "./blog.module.css";
 
-const Blog = () => {
+const Feed = () => {
   return (
     <section className={styles.blogBackground}>
       <header className={styles.header}>
@@ -79,4 +79,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Feed;
