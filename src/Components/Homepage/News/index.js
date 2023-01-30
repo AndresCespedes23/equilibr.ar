@@ -13,7 +13,7 @@ const News = () => {
           Enterate de nuestros nuevos proyectos y ultimos trabajos
         </p>
         <button className={styles.newsBtn}>
-          <Link className={styles.linkBtn} to="/blog">
+          <Link className={styles.linkBtn} to="/feed">
             Ver Novedades
           </Link>
         </button>
