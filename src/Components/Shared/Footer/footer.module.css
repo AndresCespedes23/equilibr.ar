@@ -4,7 +4,10 @@
     align-items: center;
     flex-direction: column;
     padding: 2rem;
-    background-color: #367211;
+    background-image: url('../../../../public/images/background/2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #FFF;
 }
 .socialMedia {

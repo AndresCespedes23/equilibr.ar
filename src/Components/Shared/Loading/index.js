@@ -5,12 +5,12 @@ import Spinner from "../Spinner";
 
 function Loading() {
   const [isLoading, setLoading] = useState(false);
-  const loadingTheather = () => {
+  const loadingScreen = () => {
     setTimeout(() => {
       setLoading(true);
     }, 5000);
   };
-  window.addEventListener("load", loadingTheather);
+  window.addEventListener("load", loadingScreen);
 
   return (
     <motion.section
