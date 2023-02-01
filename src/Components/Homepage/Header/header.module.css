@@ -4,10 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #FFF;
-    color: var(--green);
+    background: #000;
+    color: #FFF;
     width: 100%;
-    border-bottom: 4px solid #CD9900;
+    border-bottom: 4px solid #D47F1B;
     z-index: 1;
 }
 .logo {
@@ -20,6 +20,6 @@
 .links {
     padding-right: 3vw;
     font-size: 1.5rem;
-    color: var(--green);
+    color:#FFF;;
     text-decoration: none;
 }

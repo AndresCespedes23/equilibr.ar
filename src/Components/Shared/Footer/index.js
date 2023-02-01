@@ -18,7 +18,7 @@ const Footer = () => {
         />
       </div>
       <p className={styles.copyright}>
-        Copyright © 2022 Equilibr.ar. All rights reserved.
+        Copyright © 2023 Equilibr.ar. All rights reserved.
       </p>
     </footer>
   );
