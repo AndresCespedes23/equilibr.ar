@@ -2,7 +2,6 @@
 import React from "react";
 import styles from "./news.module.css";
 import "react-awesome-slider/dist/styles.css";
-import { Link } from "react-router-dom";
 
 const News = () => {
   return (
@@ -10,13 +9,21 @@ const News = () => {
       <h3 className={styles.title}>Novedades</h3>
       <div className={styles.newsBackground}>
         <p className={styles.newsDescription}>
-          Enterate de nuestros nuevos proyectos y ultimos trabajos
+          Seguinos en Instagram, y enterate de nuestros nuevos proyectos y
+          ultimos trabajos:
         </p>
-        <button className={styles.newsBtn}>
-          <Link className={styles.linkBtn} to="/feed">
-            Ver Novedades
-          </Link>
-        </button>
+        <a
+          className={styles.linkBtn}
+          href="https://www.instagram.com/cocconifernando/"
+        >
+          <img
+            className={styles.socialMedia}
+            src={`${process.env.PUBLIC_URL}/images/footer/instagram.png`}
+            alt="instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+          />
+        </a>
       </div>
     </section>
   );
