@@ -5,7 +5,7 @@ import News from "./News";
 import Header from "./Header";
 import Services from "./ServicesA";
 import WhoWeAre from "./WhoWeAre";
-import Loading from "../Shared/Loading";
+// import Loading from "../Shared/Loading";
 
 const Home = () => {
   return (
@@ -16,7 +16,6 @@ const Home = () => {
       <News />
       <Contact />
       <Footer />
-      <Loading />
     </main>
   );
 };
