@@ -35,7 +35,7 @@ const Services = () => {
         <div className={styles.services}>
           <h3 className={styles.servicesTitle}>Bioregeneración</h3>
           <p className={styles.servicesText}>
-            Medinate el agregado de sustancias naturales mejoramos la fertilidad
+            Mediante el agregado de sustancias naturales mejoramos la fertilidad
             de los suelos y disminuimos el consumo de agroquímicos y
             fertilizantes.
           </p>

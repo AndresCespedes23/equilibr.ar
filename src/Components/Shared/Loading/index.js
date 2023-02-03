@@ -14,8 +14,7 @@ function Loading() {
 
   return (
     <motion.section
-      animate={{ opacity: 0 }}
-      transition={{ duration: 3 }}
+      transition={{ duration: 4 }}
       className={
         isLoading ? styles.modalContainerHidden : styles.modalContainer
       }

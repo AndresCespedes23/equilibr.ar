@@ -21,15 +21,15 @@
 }
 .text {
     margin: 0vh 1vw;
-    padding: 1rem;
+    padding: 2rem;
     background-image: url('../../../../public/images/background/1.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 5%;
-    box-shadow: 4px 3px #000;
+    box-shadow: 4px 3px #00000086;
     color: #FFF;
-    text-shadow: 1px 2px rgba(0, 0, 0, 0.842);
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.250);
 }
 @media only screen and (min-width: 992px) {
     .title {
@@ -53,7 +53,7 @@
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 5%;
-        box-shadow: 4px 3px #000;
+        box-shadow: 4px 3px #00000086;
         color: #FFF;
         text-shadow: 1px 2px rgba(0, 0, 0, 0.842);
         font-size: 1.5rem;
