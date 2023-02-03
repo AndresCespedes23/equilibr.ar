@@ -4,15 +4,13 @@ import styles from "./who.module.css";
 const WhoWeAre = () => {
   return (
     <section id="quienes_somos" className={styles.background}>
-      <h2 className={styles.title}>Quienes Somos</h2>
+      <h2 className={styles.title}>¿Quienes Somos?</h2>
       <div className={styles.presentation}>
         <p className={styles.text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem
-          quam, semper ac arcu non, sodales pellentesque libero. Sed mattis,
-          velit ac sagittis cursus, tortor ante porttitor purus, ac rhoncus eros
-          magna sed nulla. Orci varius natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus. Nam tincidunt nunc non enim
-          ruaccumsan magna.
+          Somos un grupo de ingenieros agronomos preocupados por el deterioro de
+          la fertilidad de nuestros suelo que hemos desarrollado un método de
+          trabajo que permite recuperar la materia organica y disminuir el uso
+          de fertilizantes y agroquímicos.
         </p>
       </div>
     </section>

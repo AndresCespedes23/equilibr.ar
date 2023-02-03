@@ -9,24 +9,24 @@
 .title {
     display:flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 2rem 0rem 3rem 0rem;
     color: #FFF;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-shadow: 2px 3px rgba(0, 0, 0, 0.74);
 }
 .servicesContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
+    flex-direction: column;
+    padding: 1rem;
 }
 .servicesImages {
-    margin-right: 4vw;
     padding: 1rem;
     border-radius: 50%;
     background-color: var(--gold);
     box-shadow: 4px 3px #000;
-    height: 10rem;
+    height: 4rem;
 }
 .services {
     margin: 1rem;
@@ -42,9 +42,56 @@
 .servicesTitle {
     padding: 1rem 0rem;
     color: #FFF;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-shadow: 2px 3px rgba(0, 0, 0, 0.74);
 }
 .servicesText {
+    font-size: 1rem;
     text-shadow: 1px 2px rgba(0, 0, 0, 0.842);
+}
+@media only screen and (min-width: 992px) {
+    .title {
+        display:flex;
+        justify-content: center;
+        padding: 4rem 0rem 0rem 0rem;
+        color: #FFF;
+        font-size: 2rem;
+        text-shadow: 2px 3px rgba(0, 0, 0, 0.74);
+    }
+    .servicesContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 4rem;
+    }
+    .servicesImages {
+        margin-right: 4vw;
+        padding: 1rem;
+        border-radius: 50%;
+        background-color: var(--gold);
+        box-shadow: 4px 3px #000;
+        height: 10rem;
+    }
+    .services {
+        margin: 1rem;
+        padding: 2rem;
+        border-radius: 15%;
+        background-image: url('../../../../public/images/background/1.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 4px 3px #000;
+        color: #FFF;
+    }
+    .servicesTitle {
+        padding: 1rem 0rem;
+        color: #FFF;
+        font-size: 2rem;
+        text-shadow: 2px 3px rgba(0, 0, 0, 0.74);
+    }
+    .servicesText {
+        font-size: 1.5rem;
+        text-shadow: 1px 2px rgba(0, 0, 0, 0.842);
+    }
 }

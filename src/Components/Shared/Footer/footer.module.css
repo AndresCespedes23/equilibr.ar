@@ -10,10 +10,11 @@
     background-position: center;
     color: #FFF;
 }
-.socialMedia {
-    padding: 1rem;
-    height: 2.5rem;
-}
 .copyright {
-    font-size: 1.5rem;
+    font-size: 1rem;
+}
+@media only screen and (min-width: 992px) {
+    .copyright{
+        font-size: 1.5rem;
+    }
 }
