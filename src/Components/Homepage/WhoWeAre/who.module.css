@@ -20,9 +20,9 @@
     padding: 2rem;
 }
 .text {
-    margin: 0vh 1vw;
+    margin: 0rem 1rem;
     padding: 2rem;
-    background-image: url('../../../../public/images/background/1.svg');
+    background-image: url('../../../../public/images/background/3.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

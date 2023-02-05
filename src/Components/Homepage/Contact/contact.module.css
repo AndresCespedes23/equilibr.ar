@@ -1,8 +1,8 @@
 .contactBackground {
     background-image: url('../../../../public/images/background/4.jpg');
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-color: rgba(128, 128, 128, 0.589);
     background-blend-mode: multiply;
 }
@@ -45,6 +45,14 @@
     background: var(--green);
 }
 @media only screen and (min-width: 992px) {
+    .contactBackground {
+    background-image: url('../../../../public/images/background/4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(128, 128, 128, 0.589);
+    background-blend-mode: multiply;
+}
     .title {
         display: flex;
         justify-content: center;
