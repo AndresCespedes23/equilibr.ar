@@ -11,7 +11,7 @@
     z-index: 1;
 }
 .logo {
-    height: 3rem;
+    height: 5rem;
 }
 .navLinks {
     display: flex;
@@ -25,7 +25,13 @@
     text-decoration: none;
 }
 @media only screen and (min-width: 992px) {
+    .logo {
+        height: 6rem;
+    }
     .links {
         display: inline-block
+    }
+    .links:hover {
+        color: var(--green);
     }
     }

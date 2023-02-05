@@ -41,24 +41,6 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className={styles.servicesContainer} data-aos="zoom-in">
-        <img
-          src={`${process.env.PUBLIC_URL}/images/services/searching.png`}
-          alt="searching"
-          className={styles.servicesImages}
-        />
-        <div className={styles.services}>
-          <h3 className={styles.servicesTitle}>Título</h3>
-          <p className={styles.servicesText}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem
-            quam, semper ac arcu non, sodales pellentesque libero. Sed mattis,
-            velit ac sagittis cursus, tortor ante porttitor purus, ac rhoncus
-            eros magna sed nulla. Orci varius natoque penatibus et magnis dis
-            parturient montes, nascetur ridiculus mus. Nam tincidunt nunc non
-            enim ruaccumsan magna.
-          </p>
-        </div>
-      </div>
     </section>
   );
 };
