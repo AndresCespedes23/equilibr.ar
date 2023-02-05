@@ -7,22 +7,27 @@ const Contact = () => {
       <h3 className={styles.title}>¿Cómo podemos ayudarte?</h3>
       <form
         className={styles.form}
-        target="_blank"
         action="https://formsubmit.co/info@equilibr.ar"
         method="POST"
       >
         <input
           className={styles.name}
+          type="text"
+          name="Nombre Completo"
           placeholder="Escriba su nombre completo"
           required
         />
         <input
           className={styles.email}
+          type="email"
+          name="Email"
           placeholder="Escriba su mail"
           required
         />
         <input
           className={styles.location}
+          type="text"
+          name="Residencia"
           placeholder="¿Cuál es su residencia?"
           required
         />
@@ -30,6 +35,8 @@ const Contact = () => {
           className={styles.textArea}
           rows={5}
           cols={25}
+          type="text"
+          name="Mensaje"
           placeholder="Deje su mensaje aquí"
           required
         ></textarea>
