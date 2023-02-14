@@ -18,7 +18,7 @@ const Services = () => {
           className={styles.servicesImages}
         />
         <div className={styles.services}>
-          <h3 className={styles.servicesTitle}>Mapeo de campo</h3>
+          <h3 className={styles.servicesTitle}>Analisis de suelo</h3>
           <p className={styles.servicesText}>
             Mediante análisis de cromatografía plana determinamos el contenido
             de materia orgánica y su relación con los microorganismos del suelo

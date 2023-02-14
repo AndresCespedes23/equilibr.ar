@@ -7,7 +7,7 @@ function Header() {
     <header className={styles.header}>
       <img
         className={styles.logo}
-        src={`${process.env.PUBLIC_URL}/images/eq-header1.jpeg`}
+        src={`${process.env.PUBLIC_URL}/images/equilibrar.jpeg`}
         alt="eq-logo"
       />
       <nav>

@@ -11,7 +11,7 @@
     z-index: 1;
 }
 .logo {
-    height: 5rem;
+    height: 7rem;
 }
 .navLinks {
     display: flex;
@@ -26,7 +26,7 @@
 }
 @media only screen and (min-width: 992px) {
     .logo {
-        height: 6rem;
+        height: 8rem;
     }
     .links {
         display: inline-block
